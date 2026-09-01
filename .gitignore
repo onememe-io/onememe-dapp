@@ -134,3 +134,16 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+
+# Foundry
+lib/
+out-forge/
+cache-forge/
+
+# Local-only deployment records
+deployments/*.local.json

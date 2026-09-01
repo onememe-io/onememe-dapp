@@ -1,0 +1,31 @@
+{
+  "name": "onememe-dapp",
+  "version": "1.0.0",
+  "description": "Deployment configuration and BNB Smart Chain mainnet addresses for OneMeme, a bonding curve token launchpad built on PancakeSwap",
+  "private": true,
+  "scripts": {
+    "postinstall": "node scripts/patch-hardhat-edr.js && node scripts/patch-hardhat-ethers-to.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "homepage": "https://onememe.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onememe-io/onememe-dapp.git"
+  },
+  "keywords": [
+    "bnb-chain",
+    "bsc",
+    "bnb-smart-chain",
+    "pancakeswap",
+    "bonding-curve",
+    "launchpad",
+    "solidity"
+  ]
+}
